@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        include('student.php');
+        include('Student.php');
 
         $students = array();
 
