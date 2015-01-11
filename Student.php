@@ -20,14 +20,17 @@ class Student {
         $this->grades = array();    // grades
     }
     
+    // student emails
     function add_email($which, $address) {
         $this->emails[$which] = $address; // address stores in the emails array
     }
     
+    // student grades
     function add_grade($grade) {
         $this->grades[] = $grade; // grade stores in the grades array
     }
     
+    // the average of all the grades
     function average() {
         $total = 0;
         foreach ($this->grades as $value) {
